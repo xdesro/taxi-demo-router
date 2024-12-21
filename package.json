@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@unseenco/taxi": "^1.8.0",
+    "http-server": "^14.1.1",
+    "rollup": "^4.28.1"
+  },
+  "name": "taxi-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx rollup --config && npx http-server dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Henry From Online <yo@henry.codes>",
+  "license": "ISC",
+  "description": ""
+}

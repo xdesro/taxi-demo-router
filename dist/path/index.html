@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other page</title>
+</head>
+
+<body>
+    <nav>
+        <div>This doesn't change from page-to-page</div>
+        <a href="/">Home</a>
+        <a href="/path">Other page</a>
+    </nav>
+    <main data-taxi>
+        <div data-taxi-view>
+            <h1>This page is different</h1>
+            <p>There will be a bunch of filler content, with an anchor link that goes way down the page.</p>
+            <h2>Table of contents</h2>
+            <ul>
+                <li><a href="#anchor">Regular link that goes to the hashed anchor</a></li>
+                <li><a href="#anchor" data-taxi-ignore>See that this still plays the transition with
+                        <code>data-taxi-ignore</code></a></li>
+                <li><a href="#anchor" target="_self" data-taxi-ignore>See that this still plays the transition with
+                        <code>target</code> and <code>data-taxi-ignore</code></a></li>
+            </ul>
+            <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus placerat ut suscipit vitae risus tempus
+                litora iaculis. Mattis maecenas sem phasellus fringilla ipsum tellus consequat, cursus maximus.
+                Parturient lobortis finibus efficitur scelerisque interdum tempor elementum. Gravida suscipit tincidunt
+                cras tincidunt tortor congue lacus. Ipsum magnis placerat enim sodales tellus efficitur aliquam. Lectus
+                placerat auctor urna libero dis montes vehicula. Mauris orci urna tristique mauris elementum nascetur
+                enim convallis. Est dictum eleifend tempor posuere blandit conubia mollis.</p>
+            <p>Libero rutrum dapibus torquent sit ultricies sit. Mollis feugiat est taciti sociosqu tortor natoque
+                lectus eu ullamcorper. Ultricies lectus elit luctus taciti massa nullam ridiculus vulputate himenaeos.
+                Senectus ultricies lacus arcu nam nec iaculis eu. Nostra interdum sit gravida rutrum mattis rutrum. Ante
+                volutpat senectus ac blandit mauris primis. Lorem primis pulvinar tempor litora himenaeos. Leo dui ac
+                volutpat curae elementum tempor. Nisl tempor venenatis fusce, tristique quisque pharetra integer nunc
+                orci.</p>
+            <p>Vestibulum proin per venenatis aptent lobortis elit class scelerisque phasellus. Faucibus nisl luctus
+                aenean porta commodo augue montes pellentesque consectetur. Malesuada porta lacinia fames tellus
+                sagittis. Sociosqu ullamcorper arcu facilisis facilisi mus mauris lacinia. Finibus integer lectus aenean
+                fusce imperdiet rhoncus. Iaculis curae congue id natoque laoreet facilisi aliquet. Integer integer
+                molestie per eu fermentum purus tempus urna imperdiet. Penatibus praesent nunc class ligula accumsan
+                molestie ut. Mollis tincidunt montes arcu odio dolor vestibulum consequat orci. Montes urna ullamcorper
+                sem eu nam, tellus dis.</p>
+            <p>Rhoncus duis class magnis pellentesque elit, ultricies torquent. Primis consectetur litora mollis sodales
+                sagittis aliquet. Eu massa mattis est suscipit sagittis. Neque interdum id ullamcorper fermentum quis.
+                Lacus dignissim fringilla libero curabitur taciti placerat? Hendrerit pulvinar vehicula nulla per tellus
+                hac nullam vel. Sed lectus habitant euismod consectetur integer vitae fermentum dictumst suscipit.</p>
+            <h2><a name="anchor"></a> And here is where it should scroll to</h2>
+            <p>Rutrum magna nulla lectus ante nulla. Nisi fringilla id eu, erat habitasse fringilla dis. Nibh parturient
+                natoque sit; dictumst sociosqu non. Dictum ac eros ridiculus egestas; pretium fermentum aenean. Vitae
+                nostra viverra risus at penatibus montes metus. Turpis primis lectus ut torquent varius. Magna platea
+                nisl ultrices vehicula himenaeos. Bibendum penatibus ac dictum nisi velit proin. Urna nascetur hendrerit
+                commodo lobortis feugiat odio nisl mauris.</p>
+
+        </div>
+    </main>
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
